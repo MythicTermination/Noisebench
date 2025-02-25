@@ -2285,6 +2285,7 @@ const BARS = {
 			id: 'brush',
 			no_wrap: true,
 			children: [
+				'brush_mode',
 				'fill_mode',
 				'copy_brush_mode',
 				'draw_shape_type',
@@ -2293,6 +2294,7 @@ const BARS = {
 				'_',
 				'slider_brush_size',
 				'slider_brush_opacity',
+				'slider_brush_min_opacity',
 				'slider_brush_softness',
 				'slider_color_select_threshold',
 				'_',
