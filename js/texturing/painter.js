@@ -422,7 +422,7 @@ useBrush(texture, ctx, x, y, event) {
     var size = BarItems.slider_brush_size.get();
     let softness = BarItems.slider_brush_softness.get()/100;
     let b_opacity = BarItems.slider_brush_opacity.get()/255;
-    let m_opacity = BarItems.slider_brush_min_opacity.value/100;
+    let m_opacity = BarItems.slider_brush_min_opacity.get()/100;
     let tool = Toolbox.selected;
     let noise = BarItems.brush_mode.get() == 'noise';
     let matrix_id = Painter.current.element
